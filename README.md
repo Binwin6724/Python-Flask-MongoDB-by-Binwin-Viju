@@ -21,7 +21,7 @@ Python-Flask-MongoDB
    * type **python -m venv .** for windows users. 
    * type **virtualenv -p python .** for mac users.
 * Go to terminal and
-   * type **cd Scripts/activate** for windows users.
+   * run **Scripts/activate** for windows users.
    * type **source bin/activate** for mac users.
 * install packages like :-
    * pip install flask
