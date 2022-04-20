@@ -94,14 +94,21 @@ def delete_user(id):
             {"_id": ObjectId(id)}
         )
 
-        for attr in dir(dbResponse):
-            print("******{attr}*******")
-        return Response(
-            response=json.dumps(
-                {"message": "User Deleted", "id": f"{id}"}
-            ), status=200,
-            mimetype="application/json"
-        )
+        if dbResponse.deleted_count == 1:
+            return Response(
+                response=json.dumps(
+                    {"message": "User Deleted"}
+                ), status=200,
+                mimetype="application/json"
+            )
+
+        else:
+            return Response(
+                response=json.dumps(
+                    {"message": "user not found to delete!!"}
+                ), status=200,
+                mimetype="application/json"
+            )
 
     except Exception as ex:
 
