@@ -43,11 +43,21 @@ After running the code we can see some result like :-
  * Debugger is active!
  * Debugger PIN: 124-615-963
 
-Then open post man and u can insert data to MongoDB using 
+### Create Data Example [POST]
  ![image](https://user-images.githubusercontent.com/71392436/161825519-975639aa-6c51-402b-9d27-15e683b1b146.png)
 
 when we click send it will be stored in our MongoDB.
-To see our data using postman we need to use GET method
+
+### Read Data Example [GET]
 ![image](https://user-images.githubusercontent.com/71392436/161825980-0da504e7-833b-4606-9ecf-6787b51ceb35.png)
 
+### Update Data Example [PATCH]
+![image](https://user-images.githubusercontent.com/71392436/164496253-e6bcbfe1-a18a-41a4-98c8-0cb149060bf0.png)
+
+### Delete Data Example [DELETE]
+![image](https://user-images.githubusercontent.com/71392436/164496759-49c397dd-c42a-4cbb-99d6-f200be7feac7.png)
+
+
+
+ ## Happy Hacking!!!
  
